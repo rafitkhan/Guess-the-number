@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Abril+Fatface&family=Frank+Ruhl+Libre:wght@300..900&family=Inter:wght@100..900&family=Jersey+25&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Abril+Fatface&family=Frank+Ruhl+Libre:wght@300..900&family=Inter:wght@100..900&family=Jersey+25&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/*===-------==common css=--------===*/
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #A79277;
+    flex-direction: column;
+}
+/*========game name and title======*/
+.title{
+    margin-bottom: 10px;
+    text-align: center;
+    color: azure;
+    
+}
+.Game-name{
+    font-family: "Abril Fatface", serif;
+    font-size: 60px;
+}
+.Game-rules{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+span{
+    font-size: 20px;
+    font-weight: 900;
+    color: #FFF3C7;
+}
+
+/*=======player 1 values=======*/
+.value1{
+    width: 500px;
+    height: 200px;
+    border: 2px solid #FFF2E1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.p1input{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    outline: none;
+    font-weight: 700;
+    color: black;
+}
+.p1button{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    border: none;
+    margin-left: 5px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    background: #FFF3C7;
+    box-shadow: 0px 9px 7px #222222;
+    border-radius: 10px;
+}
+.p1button:hover{
+    background: #f9e28f;
+}
+.p1button:active{
+    transform: translateY(4px);
+}
+/*=======player 1 info======*/
+.p1title{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+.show{
+    width: 100%;
+    height: 30px;
+    padding: 2px 3px 2px 3px;
+    text-align: center;
+    border: 2px solid black;
+    background: #FFF3C7;
+    font-size: 25px;
+    font-weight: 700;
+    border: none;
+    border-radius: 7px;
+}
+.error{
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    color: azure;
+    font-weight: 400;
+}
+/*=======player 2 values =======*/
+.value2{
+    width: 500px;
+    height: 200px;
+    border: 2px solid #FFF2E1;
+    padding: 20px;
+    box-sizing: border-box;
+    display: none;
+}
+.p2input{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    outline: none;
+    font-weight: 700;
+    color: black;
+}
+.p2button{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    border: none;
+    margin-left: 5px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    background: #FFF3C7;
+    box-shadow: 0px 9px 7px #222222;
+    border-radius: 10px;
+}
+.p2button:hover{
+    background:  #f9e28f;
+}
+.p2button:active{
+    transform: translateY(4px);
+}
